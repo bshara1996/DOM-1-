@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM#1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--Ex1-->
+  <section>
+    <h2>Ex1</h2>
+
+    <p id="text">This is a sample paragraph</p>
+    <input type="text" id="classInput" placeholder="Enter class name">
+    <button class="btn" onclick="addClass()">Add Class</button>
+  </section>
+
+
+  <!--Ex2-->
+  <section>
+    <h2>Ex2</h2>
+
+    <p id="p1" class="visible">This is first paragraph</p>
+    <p id="p2" class="visible">This is second paragraph</p>
+    <p id="p3" class="visible">This is third paragraph</p>
+
+    <button class="btn" onclick="toggleVisibility('p1')">Toggle First Paragraph</button>
+    <button class="btn" onclick="toggleVisibility('p2')">Toggle Second Paragraph</button>
+    <button class="btn" onclick="toggleVisibility('p3')">Toggle Third Paragraph</button>
+  </section>
+
+  <!--Ex3-->
+
+  <section>
+    <h2>Ex3</h2>
+
+    <button id="click-btn" class="btn" onclick="clicked()">Click me</button>
+  </section>
+
+
+  <script src="js.js"></script>
+</body>
+
+</html>
